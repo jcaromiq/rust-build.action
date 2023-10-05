@@ -1,8 +1,8 @@
-FROM rust:1.68-alpine3.17
+FROM rust:1.72-alpine
 
 LABEL "name"="Automate publishing Rust build artifacts for GitHub releases through GitHub Actions"
-LABEL "version"="1.4.3"
-LABEL "repository"="http://github.com/rust-build/rust-build.action"
+LABEL "version"="1.4.4"
+LABEL "repository"="http://github.com/jcaromiq/rust-build.action"
 LABEL "maintainer"="Douile <25043847+Douile@users.noreply.github.com>"
 
 # Add regular dependencies
